@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-MDE3-Dev"
+		},
+		"ls_adls_f1_servicePrincipalCredential": {
+			"value": ""
+		},
+		"ls_sqlserver_password": {
+			"value": ""
+		},
+		"ls_adls_f1_properties_typeProperties_url": {
+			"value": "https://adlsmde3f1.dfs.core.windows.net/"
+		},
+		"ls_adls_f1_properties_typeProperties_tenant": {
+			"value": "5dcf8108-80d9-4413-9df6-80180edc9adb"
+		},
+		"ls_adls_f1_properties_typeProperties_servicePrincipalId": {
+			"value": "921ea13c-3c41-48ae-973b-0c65c567713c"
+		},
+		"ls_sqlserver_properties_typeProperties_server": {
+			"value": "sql-server-mde3.database.windows.net"
+		},
+		"ls_sqlserver_properties_typeProperties_database": {
+			"value": "SampleDB"
+		},
+		"ls_sqlserver_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		}
+	}
+}
