@@ -1,0 +1,9 @@
+{
+	"name": "ADF-MDE3-Dev",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b08eecb8-75cc-4cdd-9437-519e9baa3ad3",
+		"tenantId": "5dcf8108-80d9-4413-9df6-80180edc9adb"
+	}
+}
