@@ -1,0 +1,24 @@
+{
+	"name": "T_PL_MSSQL_Parquet",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_MSSQL_Parquet",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2025-10-25T12:21:00",
+				"timeZone": "Singapore Standard Time"
+			}
+		}
+	}
+}
